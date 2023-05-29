@@ -1,0 +1,10 @@
+name: Maven build project
+######
+on:
+    push:
+        branches:
+        - "2-ecommerce-at-cost-automation-testing"
+
+jobs:
+    build-maven-project:
+        uses: Calance-US/calance-workflows/.github/workflows/java-selenium-tests.yml@262-load-testing-framework
